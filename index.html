@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIME</title>
+    <link rel="shortcut icon" href="imagenes/Logo_Pestaña.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="nav-bg">
+        <div class="navegacion-1">
+            <a href="#"><img src="imagenes/logotipo-FIME.png" alt="Logo-FIME"></a>
+        </div>
+        <div class="navegacion-2">  
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de la FIME</a>
+            <a href="#">Oferta educativa</a>
+            <a href="#">Vida Estudiantil</a>
+            <a href="#">Tramites</a>
+            <a href="#">Medios</a>
+            <a href="#">Contacto</a>
+        </div>
+    </nav>
+    <header class="encabezado">
+        <h1 class="encabezado-izq">Deportes FIME</h1>
+        <p class="encabezado-izq">Busca tu deporte e inscribete</p>
+    </header>
+    <main class="contenedor seccion">
+
+        <div class="btn-pop">
+            <button id="open-popup">Mostrar Popup</button>
+        </div>
+        <div class="popup">
+            <div class="head">
+              <div class="icon">
+                <div class="box">
+                    <span>&#10003;</span>
+                </div>
+              </div>
+            </div>
+            <div class="body">
+              <h1>Bienvenido a la mejora de César Octavio Delgado Silva</h1>
+              <p>Voy a estar actualizando el proceso de inscripción a Deportes de la Facultad de Ingeniería Mecánica y eléctrica.</p>
+              <button class="close-btn">&times; OK</button>
+            </div>
+        </div>
+
+        <div class="centrar-texto">   
+            <h2>Proceso de Inscripcion</h2>
+        </div>
+        
+        <div class="pasos seccion">
+            <p>1. Como requisito el alumno debe pertencer a la institucion UANL.</p>
+			<p>2. El alumno tendrá la opción de elegir alguno de los deportes impartidos por la facultad.</p>
+            <p>3. Cada deporte tiene un codigo de teams único, solo los alumnos inscritos son admitidos.</p>
+            <p>4. Deberá registrar los datos solicitados en el siguiente formulario.</p>
+            <p>5. Todos los datos deberán de ser válidos y correctos.</p>
+            <p>6. El alumno recibirá una confirmacion a su preferencia de contacto.</p>
+            <p>7. El alumno podrá ingresar al deporte por el codigo de teams para tomar sus clases.</p>
+        </div>
+    </main>
+
+    <section class="contenedor" >
+        <h2 class="centrar-texto">DEPORTES DE LA FACULTAD </h2>
+        <div class="seccion forma-icons">
+            <img src="imagenes/Balón.png" alt="icon-futbol">
+            <p>Fútbol</p>
+            <img src="imagenes/Baloncesto.png" alt="icon-basquetbol">
+            <p>Basquetbol</p>
+            <img src="imagenes/Americano.png" alt="icon-americano">
+            <p>Americano</p>
+            <img src="imagenes/Beisbol.png" alt="icon-beisbol">
+            <p>Béisbol</p>
+            <img src="imagenes/Voley.png" alt="icon-voley">
+            <p>Voleibol</p>
+        </div>
+        <div class="seccion forma-icons">
+            <img src="imagenes/Beisbol.png" alt="icon-Tenis">
+            </svg>
+            <p>Tenis</p>
+            <img src="imagenes/iconmonstr-boxing-1-32.png" alt="icon-Boxeo">
+            <p>Boxeo</p>
+            <img src="imagenes/iconmonstr-drop-30-48.png" alt="icon-Natacion">
+            <p>Natación</p>
+            <img src="imagenes/iconmonstr-bicycle-5-48.png" alt="icon-Ciclismo">
+            <p>Ciclismo</p>
+            <img src="imagenes/iconmonstr-building-40-48.png" alt="icon-Taekwondo">
+            <p>Taekwondo</p>
+		</div>
+		<div class="seccion forma-icons">
+			<img src="imagenes/Boliche.png" alt="icon-Boliche">
+			<p>Boliche</p>
+            <img src="imagenes/Beisbol.png" alt="icon-Softbol">
+			<p>Sóftbol</p>
+			<img src="imagenes/Rugby.png" alt="icon-Rugby">
+			<p>Rugby</p>
+			<img src="imagenes/Atletismo.png" alt="icon-Atletismo">
+			<p>Atletismo</p>
+			<img src="imagenes/Kung-fu.png" alt="icon-Kung-fu">
+			<p>Kung-fu</p>
+        </div>
+    </section>
+
+    <section class="contenedor seccion">
+        <div class="fotos-deportes">
+            <img src="imagenes/Nadador.jpg" alt="Nadador Profesional" class="img-dep">
+            <img src="imagenes/Futbolista.jpg" alt="Futbolista Profesional" class="img-dep">
+            <img src="imagenes/Beisbolista.jpg" alt="Beisbolista Profesional" class="img-dep">
+            <img src="imagenes/AmericanoProfesional.jpg" alt="Americano Profesional" class="img-dep">
+        </div>
+    </section>
+
+    <section class="contenedor seccion contenido-centrado">
+        <h2 class="fw-300 centrar-texto">Llena el formulario de Inscripción</h2>
+		<form class="contacto" action="">
+			<fieldset>
+				<legend>Información Personal</legend>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" placeholder="Tu nombre">
+
+                <label for="matricula">Matricula: </label>
+				<input type="number" id="matricula" placeholder="Tu Matricula">
+                
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" placeholder="Tu Correo electrónico">
+                
+			</fieldset>
+
+			<fieldset>
+				<legend>Información sobre el deporte</legend>
+                <label for="deporte">Nombre del deporte</label>
+                <input type="text" id="deporte" placeholder="Nombre del deporte">
+  
+				<label for="opciones">Seleccione horario</label>
+				<select id="opciones">
+					<option value="" disabled selected>-- Seleccione --</option>
+					<option value="mañana">12:00</option>
+					<option value="tarde">15:00</option>
+					<option value="noche">17:00</option>
+				</select>
+                
+                <p>Dias de entrenamiento:</p>
+                <div class="forma-contacto">
+					<label for="dias">Lunes/Miercoles/Viernes</label>
+					<input type="radio" name="contacto" value="dias" id="dias">
+
+					<label for="correo">Martes/Jueves: </label>
+					<input type="radio" name="contacto" value="correo" id="correo">				
+				</div>
+			</fieldset>
+            
+            <div class="contenedor seccion" >
+                <input type="submit" class="boton boton-verde ">
+                <a href="Registro.html" class="enlace seccion">Ir al registro</a>
+            </div>
+            
+		</form>
+    </section>
+
+    <footer class="site-footer seccion">
+		<div class="contenedor contenedor-footer">
+			<nav class="navegacion-2">
+				<a href="#">Nosotros</a>
+				<a href="#">Medios</a>
+				<a href="#">Contacto</a>
+			</nav>
+			<p class="copy-right">Todos los Derechos Reservados 2021 &COPY;</p>
+		</div>
+	</footer>
+</body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/script.js"></script>
+</html>
